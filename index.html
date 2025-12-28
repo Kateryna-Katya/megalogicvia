@@ -2,55 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/megalogicvia/favicon.svg" />
+<link rel="icon" type="image/png" href="/megalogicvia/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap"
+      rel="stylesheet">
+    <title>Tree of light</title>
     <script type="module" crossorigin src="/megalogicvia/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/megalogicvia/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/megalogicvia/assets/styles-Sd8Ce7HJ.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section" id="home">
+    <div class="container hero-container">
+        <h1 class="visually-hidden">Tree of light</h1>
+        <div class="hero-wrapper">
+        <picture>
+            <source srcset="/megalogicvia/assets/logo-desk-Bg47txCW.png 1x, /megalogicvia/assets/logo-desk@2x-D1j2TDFS.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/megalogicvia/assets/logo-mob-DvbFZxbI.png 1x, /megalogicvia/assets/logo-mob@2x-cdoI2lv3.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-logo" src="/megalogicvia/assets/logo-mob-DvbFZxbI.png" alt="Tree of light" loading="lazy" />
+        </picture>
+      <div class="hero-text-wrapper">
+        <p><span class="span">There's this massive tree deep in Winland's forest</span> - locals call it the Tree of Light. Legend says its fruit glows brighter than anything you've ever seen.</p>
+        <p>You'll be following these two companions as they search for the Tree of Light, and honestly? The forest's packed with
+        weird stuff - ancient symbols carved into trees, places where the air feels different, you know?</p>
+      </div>
+
+        <a class="hero-button" href="#demo">
+            <picture>
+                <source srcset="/megalogicvia/assets/btn-desk-DabtXrdl.png 1x, /megalogicvia/assets/btn-desk@2x-M4IAjSzG.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/megalogicvia/assets/btn-mob-CFWdlwHq.png 1x, /megalogicvia/assets/btn-mob@2x-D1H92b_Q.png 2x" media="(max-width: 1438px)" />
+                <img class="hero-btn pulse" src="/megalogicvia/assets/btn-mob-CFWdlwHq.png" alt="Enter" loading="lazy" />
+            </picture>
+        </a>
+    </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
