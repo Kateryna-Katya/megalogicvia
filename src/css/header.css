@@ -4,7 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
-background: rgba(255, 255, 255, 0.1);
+background: rgba(255, 255, 255, 0.2);
   height: 76px;
   width: 100%;
 
@@ -62,10 +62,14 @@ background-position: top 30px right 20px, top 260px right 100px, bottom 70px rig
 
 
 .menu-list-item {
-  position: relative;
+  font-family: "Kumbh Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
   padding:8px 16px ;
   display: inline-block;
-  text-decoration: none;
   transition: all 0.2s ease;
 }
 
@@ -77,6 +81,7 @@ background-position: top 30px right 20px, top 260px right 100px, bottom 70px rig
   background-position: top center;
   background-size: 100% 44px;
   border-radius: 60px;
+  font-weight: 700;
   height: 44px;
   width: 100%;
 }
@@ -85,13 +90,12 @@ background-position: top 30px right 20px, top 260px right 100px, bottom 70px rig
   .header {
     width: 100%;
     height: 87px;
-    background: rgba(1, 92, 40, 0.8);
   }
 
   .header-container {
-    padding: 22px 80px;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 80px;
+        display: flex;
+          justify-content: center;
   }
 
 
@@ -101,59 +105,35 @@ background-position: top 30px right 20px, top 260px right 100px, bottom 70px rig
 
   .navigation-list {
     display: flex;
-    align-items: center;
-    gap: 20px;
+  justify-content: center;
+    gap: 34px;
   }
 
 
-  .navigation-item {
-    border-radius: 20px;
-
-    font-size: 18px;
+  .links {
+font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+    padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .links {
-    position: relative;
-    padding-left: 36px;
-    display: inline-block;
-    text-decoration: none;
-    transition: all 0.2s ease;
-  }
-
-  /* иконка */
-  .links::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%) scale(0.8);
-    width: 24px;
-    height: 24px;
-
-    background-image: url("/img/header/fire.png");
-
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    opacity: 0;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-  }
-
-  /* hover */
-  .links:hover::before,
-  .links:focus::before,
-  .links.active::before {
-    opacity: 1;
-    transform: translateY(-50%) scale(1);
-  }
-
   .links:hover,
   .links:focus,
   .links.active {
+  background-image: url("/img/modal/border.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 44px;
+    border-radius: 60px;
     font-weight: 700;
+height: 44px;
+    width: 100%;
   }
 
 }
