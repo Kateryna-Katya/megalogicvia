@@ -86,3 +86,59 @@
   
   }
 }
+/* Disclaimer */
+.disclaimner-section{
+    background: linear-gradient(0deg, #004989 0%, #000d33 100%);
+}
+.disclaimer-wraper{
+    background-image: url("/img/disclaimer/border-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 340px 504px;
+padding: 52px 41px;
+width: 340px;
+height: 504px;
+position: relative;
+}
+.disclaimer-img{
+    position: absolute;
+    top:-14%;
+    right: -6%;
+}
+.disclaimer-title{
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.25;
+        color: #44b0ff;
+        text-align: left;
+}
+.disclaimer-text{
+    margin-top: 24px;
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+  .disclaimer-wraper{
+    background-image: url("/img/disclaimer/border-desk.png");
+    background-size: 1260px 323px;
+    padding: 60px 93px;
+    width: 1260px;
+    height: 323px;
+  }
+  .disclaimer-img{
+    top:-32%;;
+  }
+  .disclaimer-title{
+    font-size: 36px;
+    line-height: 1.11111;
+  }
+  .disclaimer-text{
+    margin-top: 32px;
+    font-size: 24px;
+   line-height: 1.33333;
+  }
+}
