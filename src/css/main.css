@@ -142,3 +142,152 @@ position: relative;
    line-height: 1.33333;
   }
 }
+/* Demo */
+/* ===== ОСНОВА ===== */
+.demo-section {
+    background-image: url("/img/demo/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.demo-container {
+    position: relative;
+
+
+}
+
+.demo-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 698px;
+}
+
+.game-img {
+    width: 335px;
+    height: 698px;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+    position: absolute;
+    z-index: 10;
+    display: inline-block;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    width: 284px;
+    height: 91px;
+    transform: translate(-50%, -50%);
+}
+
+.demo-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ===== ФОН ===== */
+
+.game-img {
+    width: 100%;
+    display: block;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 36%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+    z-index: 20;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+    width: 138%;
+    height: 180%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 20px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+    pointer-events: auto;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 20px;
+    right: -40px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 9999;
+    /* 🔥 НАД iframe */
+    pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+    display: block;
+}
+@media only screen and (min-width: 1439px) {
+    .demo-section {
+        background-image: url("/img/demo/desk.png");
+    }
+.demo-wrapper {
+    height: auto;
+}
+.game-img {
+    height: auto;
+}
+.demo-btn {
+    position: absolute;
+    z-index: 10;
+    display: inline-block;
+    cursor: pointer;
+    top: 54%;
+    left: 50%;
+    width: 407px;
+    height: 163px;
+    transform: translate(-50%, -50%);
+}
+.iframe-wrapper {
+    position: absolute;
+    top: 8%;
+    left: 39%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+    z-index: 20;
+    pointer-events: none;
+}
+
+#gameIframe {
+    width: 128%;
+    height: 155%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 20px;
+}
+}

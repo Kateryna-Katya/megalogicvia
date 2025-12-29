@@ -56,3 +56,46 @@
     </div>
     </div>
 </section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+
+        <h2 class="visually-hidden">Play</h2>
+
+        <div class="demo-wrapper">
+            <picture>
+                <source srcset="
+                                /img/demo/demo-desk.png 1x,
+                                /img/demo/demo-desk@2x.png 2x
+                                " media="(min-width: 1439px)" />
+                <source srcset="
+                                /img/demo/demo-mob.png  1x,
+                                /img/demo/demo-mob@2x.png 2x
+                                " media="(max-width: 1438px)" />
+                <img class="game-img" src="/img/demo/demo-mob.png" alt="Triple Chili" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+        </div>
+        <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/treeoflight"
+            target="gameIframe">
+            <picture>
+                <source srcset="
+                    /img/demo/desk-btn.png 1x,
+                    /img/demo/desk-btn@2x.png 2x
+                    " media="(min-width: 1439px)" />
+                <source srcset="
+                    /img/demo/mob-btn.png  1x,
+                    /img/demo/mob-btn@2x.png 2x
+                    " media="(max-width: 1438px)" />
+                <img class="demo-img" src="/img/demo/mob-btn.png" alt="Play Free" loading="lazy" />
+            </picture>
+        </a>
+    </div>
+</section>
