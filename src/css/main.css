@@ -326,3 +326,63 @@ position: relative;
     gap: 32px;
   }
 }
+/* Main Heroes */
+.main-section{
+    background-image: url("/img/main/mob.png");
+        background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+            height: 1835px;
+}
+.main-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main-item{
+    background-image: url("/img/main/one.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 62px 47px;
+
+}
+.main-item-one{
+    background-size: 337px 401px;
+        width: 337px;
+        height: 401px;
+
+}
+.main-item-two{
+    background-size: 337px 345px;
+    width: 337px;
+        height: 345px;
+}
+.main-subtitle-item{
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.33333;
+        color: #ff8e2d;
+        margin-bottom: 20px;
+}
+.main-item-three{
+    background-image: none;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+    padding: 24px 28px;
+    width: 335px;
+    height: 395px;
+}
+.main-text{
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.28571;
+        text-align: center;
+        color: #fff;
+}
+.main-item-img{
+    margin: 8px auto 0;
+}
