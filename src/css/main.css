@@ -291,3 +291,38 @@ position: relative;
     border-radius: 20px;
 }
 }
+/* About Game */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 1227px;
+}
+.about-title{
+    text-align: left;
+}
+.about-text-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+@media only screen and (min-width: 1439px) {
+  .about-section{
+    background-image: url("/img/about/desk.png");
+    height: 803px;
+  }
+  .about-title{
+    margin-left: 500px;
+  }
+  .about-text-wrapper{
+    margin-top: 60px;
+    width: 761px;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 24px;
+    line-height: 1.33333;
+    gap: 32px;
+  }
+}
