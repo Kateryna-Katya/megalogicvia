@@ -386,3 +386,50 @@ border-radius: 40px;
 .main-item-img{
     margin: 8px auto 0;
 }
+@media only screen and (min-width: 1439px) {
+  .main-section{
+    background-image: url("/img/main/desk.png");
+    height: 1178px;
+  }
+  .main-title{
+    text-align: right;
+    margin-right: 100px;
+  }
+  .main-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 970px;
+    gap: 32px;
+    margin-top: -60px;
+  }
+  .main-item-one{
+    order: 1;
+        background-size: 470px 470px;
+    width: 470px;
+   height: 470px;
+   padding: 68px 67px;
+   margin-right: 50px;
+  }
+  .main-item-two{
+    order: 3;
+        background-size: 470px 470px;
+        width: 470px;
+        height: 470px;
+        padding: 68px 67px;
+        margin-top: -70px;
+  }
+  .main-item-three{
+    order: 2;
+width: 438px;
+    height: 395px;
+  }
+  .main-subtitle-item{
+    font-size: 36px;
+        line-height: 1.11111;
+        margin-bottom: 32px;
+  }
+  .main-text-item{
+    font-size: 24px;
+   line-height: 1.33333;
+  }
+}
