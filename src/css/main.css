@@ -433,3 +433,94 @@ width: 438px;
    line-height: 1.33333;
   }
 }
+/* Forest magic */
+.forest-section{
+    background-image: url("/img/forest/mob.png");
+            background-repeat: no-repeat;
+                background-position: top center;
+                background-size: cover;
+        height: 1477px;
+}
+.forest-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.forest-item{
+    position: relative;
+    border-radius: 40px;
+        padding: 28px 20px;
+        width: 335px;
+        height: auto;
+        background: rgba(255, 255, 255, 0.2);
+}
+.forest-img-one{
+    position: absolute;
+    top: -60px;
+    right: -20px;
+}
+.forest-subtitle{
+font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.forest-item-text{
+    text-align: center;
+}
+.forest-img-two{
+    position: absolute;
+    top:-70px;
+    left: -20px;
+}
+.forest-text{
+    margin-top: 440px;
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.28571;
+        text-align: center;
+        color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+.forest-section{
+    background-image: url("/img/forest/desk.png");
+    height: 1031px;
+}
+.forest-list{
+    margin-top: 67px;
+    width: 748px;
+    margin-left: 520px;
+    margin-right: auto;
+    gap: 56px;
+    align-items: center;
+}
+.forest-item{
+    padding: 44px 48px;
+        width: 548px;
+}
+.forest-img-one{
+    top: -120px;
+    right: -80px;
+}
+.forest-subtitle{
+    font-size: 32px;
+        line-height: 1;
+}
+.forest-img-two{
+        top: -130px;
+        left:-100px;
+}
+.forest-text{
+    margin-top: 64px;
+    font-size: 32px;
+     line-height: 1.25;
+     width: 893px;
+     margin-left: auto;
+     margin-right: auto;
+}
+}
