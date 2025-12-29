@@ -1,0 +1,75 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+    background: #0c3393;
+font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #fff;
+}
+
+.privacy-title {
+font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14286;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-weight: 700;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    font-weight: 700;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .privacy-title {
+        font-size: 32px;
+        margin-top: 120px;
+    }
+
+}
